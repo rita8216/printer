@@ -1,0 +1,166 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  font-weight: bold;
+  box-sizing: border-box;
+  position: relative;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+nav.navbar {
+  margin-bottom: 0px;
+  transition: 0.5s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.transparent {
+  background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.transparent a {
+  color: white;
+}
+
+header.jumbotron {
+  background-image: url(https://awiclass.monoame.com/img/web1_print/print.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 200px 0px;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+header.jumbotron h1 {
+  font-size: 50px;
+}
+header.jumbotron hr {
+  max-width: 80px;
+  border: solid 2px #ff6e3a;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: normal;
+  font-size: 15px;
+}
+
+section#section_ask {
+  background-color: #ff6e3a;
+  padding: 30px 0px;
+}
+section#section_ask .img {
+  height: 300px;
+  background-size: cover;
+  background-image: url(https://awiclass.monoame.com/img/web1_print/ancient_print.jpeg);
+  mix-blend-mode: multiply;
+}
+section#section_ask h2 {
+  margin-top: 150px;
+  transform: translateY(-50%);
+  padding-left: 20px;
+}
+
+section#section_about {
+  margin-top: 50px;
+}
+section#section_about .img_wrap {
+  height: 150px;
+  overflow: hidden;
+}
+section#section_about .img_wrap img {
+  width: 130%;
+  background-size: cover;
+}
+section#section_about h4 {
+  margin-top: 10px;
+}
+section#section_about p {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+section#section_story {
+  background-color: #222;
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+}
+section#section_story .col-sm-5.img {
+  height: 400px;
+  background-size: 150%;
+  background-image: url(https://awiclass.monoame.com/img/web1_print/map.gif);
+}
+section#section_story .col-sm-5.img .cross {
+  position: absolute;
+  color: red;
+  font-size: 30px;
+  left: 110px;
+  top: 190px;
+}
+section#section_story .icon {
+  padding: 25px 0px;
+}
+section#section_story .icon i {
+  font-size: 40px;
+  padding: 10px;
+}
+section#section_story .icon h5 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+section#section_story p {
+  font-size: 13px;
+  font-weight: normal;
+  padding: 0px 5px;
+}
+
+section#section_future {
+  margin: 20px 0px;
+}
+section#section_future img {
+  width: 100%;
+}
+section#section_future .print {
+  padding-top: 20px;
+}
+section#section_future .print p {
+  font-size: 10px;
+}
+section#section_future .print i {
+  font-size: 30px;
+}
+
+footer.jumbotron {
+  background-image: url(https://awiclass.monoame.com/img/web1_print/print.jpeg);
+  padding: 100px 0;
+  background-size: cover;
+  background-position: 0 bottom;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+  margin-bottom: 0px;
+}
+footer.jumbotron h2 {
+  padding: 10px;
+  color: white;
+}
+footer.jumbotron input.form-control {
+  max-width: 350px;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+}
+footer.jumbotron hr {
+  max-width: 80px;
+  border: solid 2px #ff6e3a;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
