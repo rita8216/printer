@@ -1,4 +1,6 @@
-$(window).scroll(function(){
+$(function(){
+
+  $(window).scroll(function(){
   if($(window).scrollTop()>0)
     $(".navbar").removeClass("transparent")
   else
@@ -6,4 +8,7 @@ $(window).scroll(function(){
 
 });
 
-// var s = skrollr.init();
+var s = skrollr.init();
+
+})
+
