@@ -3,7 +3,7 @@ $(window).scroll(function(){
     $(".navbar").removeClass("transparent")
   else
     $(".navbar").addClass("transparent")
-  
+
 });
 
-var s = skrollr.init();
+// var s = skrollr.init();
