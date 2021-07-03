@@ -50,6 +50,8 @@ skrollr.menu.init(s, {
 	//Add hash link (e.g. `#foo`) to URL or not.
 	updateUrl: false //defaults to `true`.
 });
+var link = document.querySelector('a');
+skrollr.menu.click(link);
 
 
 
